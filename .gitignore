@@ -1,0 +1,25 @@
+# .gitignore
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.db-wal
+*.db-shm
+.pytest_cache/
+build/
+dist/
+*.spec
+*.egg-info/
+.eggs/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+*.sqlite
+*.sqlite3
+node_modules/
+.env
+*.env

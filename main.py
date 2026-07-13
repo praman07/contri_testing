@@ -4,8 +4,18 @@ import threading
 import json
 import sys
 import traceback
+import io
 from datetime import datetime
 from pathlib import Path
+
+# Force UTF-8 encoding for stdout and stderr to prevent UnicodeEncodeError on Windows
+if sys.platform.startswith("win"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except AttributeError:
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
 import sounddevice as sd
 from google import genai
@@ -40,10 +50,15 @@ def get_base_dir():
         return Path(sys.executable).parent
     return Path(__file__).resolve().parent
 
+def get_assets_dir():
+    if getattr(sys, "frozen", False):
+        return Path(sys._MEIPASS)
+    return Path(__file__).resolve().parent
 
 BASE_DIR        = get_base_dir()
+ASSETS_DIR      = get_assets_dir()
 API_CONFIG_PATH = BASE_DIR / "config" / "api_keys.json"
-PROMPT_PATH     = BASE_DIR / "core" / "prompt.txt"
+PROMPT_PATH     = ASSETS_DIR / "core" / "prompt.txt"
 LIVE_MODEL          = "models/gemini-2.5-flash-native-audio-preview-12-2025"
 CHANNELS            = 1
 SEND_SAMPLE_RATE    = 16000
@@ -1135,7 +1150,7 @@ class JarvisLive:
             await asyncio.sleep(3)
 
 def main():
-    ui = JarvisUI("face.png")
+    ui = JarvisUI(str(ASSETS_DIR / "face.png"))
 
     def runner():
         ui.wait_for_api_key()

@@ -1,0 +1,243 @@
+{"timestamp": "2026-07-13T16:49:58.597753+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Structured logging service online.", "module": "startup", "line": 22}
+{"timestamp": "2026-07-13T16:49:58.598261+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Event Bus async dispatcher active.", "module": "startup", "line": 28}
+{"timestamp": "2026-07-13T16:49:58.598261+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initializing Override Runtime...", "module": "runtime", "line": 32}
+{"timestamp": "2026-07-13T16:49:58.598261+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Registered ObservationEngine in ModuleRegistry.", "module": "discovery", "line": 30}
+{"timestamp": "2026-07-13T16:49:58.598783+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Registered EnvironmentEngine in ModuleRegistry.", "module": "discovery", "line": 47}
+{"timestamp": "2026-07-13T16:49:58.599317+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Registered PerceptionEngine in ModuleRegistry.", "module": "discovery", "line": 64}
+{"timestamp": "2026-07-13T16:49:58.599842+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Registered MemoryEngine in ModuleRegistry.", "module": "discovery", "line": 81}
+{"timestamp": "2026-07-13T16:49:58.599842+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Registered PlannerEngine in ModuleRegistry.", "module": "discovery", "line": 98}
+{"timestamp": "2026-07-13T16:49:58.600404+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Registered ExecutionEngine in ModuleRegistry.", "module": "discovery", "line": 115}
+{"timestamp": "2026-07-13T16:49:58.600404+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Registered VerificationEngine in ModuleRegistry.", "module": "discovery", "line": 132}
+{"timestamp": "2026-07-13T16:49:58.600404+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Registered KnowledgeEngine in ModuleRegistry.", "module": "discovery", "line": 149}
+{"timestamp": "2026-07-13T16:49:58.600911+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Registered ContextEngine in ModuleRegistry.", "module": "discovery", "line": 166}
+{"timestamp": "2026-07-13T16:49:58.600911+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Module discovery complete.", "module": "discovery", "line": 170}
+{"timestamp": "2026-07-13T16:49:58.600911+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Topological module boot order: ['observation_engine', 'environment_engine', 'perception_engine', 'memory_engine', 'planner_engine', 'context_engine', 'execution_engine', 'verification_engine', 'knowledge_engine']", "module": "runtime", "line": 42}
+{"timestamp": "2026-07-13T16:49:58.600911+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initializing module: observation_engine", "module": "runtime", "line": 47}
+{"timestamp": "2026-07-13T16:49:58.601455+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initializing Observation Engine...", "module": "engine", "line": 42}
+{"timestamp": "2026-07-13T16:49:58.601455+00:00", "level": "INFO", "logger": "Override.Observation.Screen", "message": "Initializing Screen Capture Provider.", "module": "screen", "line": 60}
+{"timestamp": "2026-07-13T16:49:58.601455+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: screen_capture", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:49:58.601455+00:00", "level": "INFO", "logger": "Override.Observation.Audio", "message": "Initializing Audio Capture Provider.", "module": "audio", "line": 45}
+{"timestamp": "2026-07-13T16:49:58.601969+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: audio_capture", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:49:58.601969+00:00", "level": "INFO", "logger": "Override.Observation.Input", "message": "Initializing Input Listener Provider.", "module": "input_listener", "line": 81}
+{"timestamp": "2026-07-13T16:49:58.601969+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: input_listener", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:49:58.601969+00:00", "level": "INFO", "logger": "Override.Observation.Window", "message": "Initializing Active Window Provider.", "module": "window", "line": 41}
+{"timestamp": "2026-07-13T16:49:58.602480+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: window_tracker", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:49:58.602480+00:00", "level": "INFO", "logger": "Override.Observation.Filesystem", "message": "Initializing Filesystem Watcher on directory: C:\\Users\\HomePC\\jaaara\\override", "module": "filesystem", "line": 42}
+{"timestamp": "2026-07-13T16:49:58.609972+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: filesystem_watcher", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:49:58.610529+00:00", "level": "INFO", "logger": "Override.Observation.Camera", "message": "Initializing Camera Capture Provider (Stub).", "module": "camera", "line": 26}
+{"timestamp": "2026-07-13T16:49:58.610529+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: camera_capture", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:49:58.610529+00:00", "level": "INFO", "logger": "Override.Observation.Device", "message": "Initializing Device Tracker Provider (Stub).", "module": "device", "line": 26}
+{"timestamp": "2026-07-13T16:49:58.610529+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: device_tracker", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:49:58.611035+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Observation Engine initialization complete.", "module": "engine", "line": 66}
+{"timestamp": "2026-07-13T16:49:58.611035+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initializing module: environment_engine", "module": "runtime", "line": 47}
+{"timestamp": "2026-07-13T16:49:58.611035+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Initializing Environment Engine...", "module": "engine", "line": 44}
+{"timestamp": "2026-07-13T16:49:58.611035+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine initialized.", "module": "engine", "line": 49}
+{"timestamp": "2026-07-13T16:49:58.611541+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initializing module: perception_engine", "module": "runtime", "line": 47}
+{"timestamp": "2026-07-13T16:49:58.611541+00:00", "level": "INFO", "logger": "Override.Perception.Engine", "message": "Initializing Perception Engine...", "module": "engine", "line": 68}
+{"timestamp": "2026-07-13T16:49:58.611541+00:00", "level": "INFO", "logger": "Override.Perception.Engine", "message": "Perception Engine initialized.", "module": "engine", "line": 79}
+{"timestamp": "2026-07-13T16:49:58.611541+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initializing module: memory_engine", "module": "runtime", "line": 47}
+{"timestamp": "2026-07-13T16:49:58.611541+00:00", "level": "INFO", "logger": "Override.Memory.Engine", "message": "Initializing Memory Engine...", "module": "engine", "line": 65}
+{"timestamp": "2026-07-13T16:49:58.613564+00:00", "level": "INFO", "logger": "Override.Memory.Engine", "message": "Memory Engine initialized.", "module": "engine", "line": 74}
+{"timestamp": "2026-07-13T16:49:58.613564+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initializing module: planner_engine", "module": "runtime", "line": 47}
+{"timestamp": "2026-07-13T16:49:58.613564+00:00", "level": "INFO", "logger": "Override.Planner.Engine", "message": "Initializing Planner Engine...", "module": "engine", "line": 53}
+{"timestamp": "2026-07-13T16:49:58.613564+00:00", "level": "INFO", "logger": "Override.Planner.Engine", "message": "Planner Engine initialized.", "module": "engine", "line": 66}
+{"timestamp": "2026-07-13T16:49:58.614080+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initializing module: context_engine", "module": "runtime", "line": 47}
+{"timestamp": "2026-07-13T16:49:58.614586+00:00", "level": "INFO", "logger": "Override.ContextEngine", "message": "Initializing Context Engine...", "module": "engine", "line": 63}
+{"timestamp": "2026-07-13T16:49:58.614586+00:00", "level": "INFO", "logger": "Override.ContextEngine", "message": "Context Engine initialized.", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:49:58.614586+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initializing module: execution_engine", "module": "runtime", "line": 47}
+{"timestamp": "2026-07-13T16:49:58.614586+00:00", "level": "INFO", "logger": "Override.ExecutionEngine", "message": "ExecutionEngine initialized and subscribed to events.", "module": "engine", "line": 50}
+{"timestamp": "2026-07-13T16:49:58.614586+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initializing module: verification_engine", "module": "runtime", "line": 47}
+{"timestamp": "2026-07-13T16:49:58.614586+00:00", "level": "INFO", "logger": "Override.VerificationEngine", "message": "VerificationEngine initialized and subscribed to execution events.", "module": "engine", "line": 37}
+{"timestamp": "2026-07-13T16:49:58.614586+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initializing module: knowledge_engine", "module": "runtime", "line": 47}
+{"timestamp": "2026-07-13T16:49:58.614586+00:00", "level": "INFO", "logger": "Override.KnowledgeEngine", "message": "Initializing Knowledge Engine...", "module": "engine", "line": 49}
+{"timestamp": "2026-07-13T16:49:58.615589+00:00", "level": "INFO", "logger": "Override.KnowledgeEngine", "message": "Knowledge Engine initialized.", "module": "engine", "line": 61}
+{"timestamp": "2026-07-13T16:49:58.615589+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Override services ready.", "module": "runtime", "line": 50}
+{"timestamp": "2026-07-13T16:49:58.616589+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Starting module: observation_engine", "module": "runtime", "line": 56}
+{"timestamp": "2026-07-13T16:49:58.616589+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Starting Observation Engine providers...", "module": "engine", "line": 69}
+{"timestamp": "2026-07-13T16:49:58.618092+00:00", "level": "INFO", "logger": "Override.Observation.Screen", "message": "Screen Capture Provider started.", "module": "screen", "line": 69}
+{"timestamp": "2026-07-13T16:49:58.618092+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: screen_capture", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:49:58.863411+00:00", "level": "INFO", "logger": "Override.Observation.Audio", "message": "Audio stream started successfully using sounddevice.", "module": "audio", "line": 64}
+{"timestamp": "2026-07-13T16:49:58.863411+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: audio_capture", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:49:58.864805+00:00", "level": "INFO", "logger": "Override.Observation.Input", "message": "Input Listener Provider started.", "module": "input_listener", "line": 90}
+{"timestamp": "2026-07-13T16:49:58.864805+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: input_listener", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:49:58.865311+00:00", "level": "INFO", "logger": "Override.Observation.Input", "message": "Native input hooks installed successfully.", "module": "input_listener", "line": 200}
+{"timestamp": "2026-07-13T16:49:58.865866+00:00", "level": "INFO", "logger": "Override.Observation.Window", "message": "Active Window Provider started.", "module": "window", "line": 51}
+{"timestamp": "2026-07-13T16:49:58.865866+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: window_tracker", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:49:58.866771+00:00", "level": "INFO", "logger": "Override.Observation.Filesystem", "message": "Filesystem Watcher Provider started.", "module": "filesystem", "line": 53}
+{"timestamp": "2026-07-13T16:49:58.866771+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: filesystem_watcher", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:49:58.866771+00:00", "level": "INFO", "logger": "Override.Observation.Camera", "message": "Camera Capture Provider (Stub) started.", "module": "camera", "line": 30}
+{"timestamp": "2026-07-13T16:49:58.867274+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: camera_capture", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:49:58.867274+00:00", "level": "INFO", "logger": "Override.Observation.Device", "message": "Device Tracker Provider (Stub) started.", "module": "device", "line": 30}
+{"timestamp": "2026-07-13T16:49:58.867274+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: device_tracker", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:49:58.867274+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Observation Engine providers started.", "module": "engine", "line": 76}
+{"timestamp": "2026-07-13T16:49:58.867274+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Starting module: environment_engine", "module": "runtime", "line": 56}
+{"timestamp": "2026-07-13T16:49:58.867274+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Starting Environment Engine...", "module": "engine", "line": 52}
+{"timestamp": "2026-07-13T16:49:58.868278+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine capturing baseline apps...", "module": "engine", "line": 56}
+{"timestamp": "2026-07-13T16:49:58.876914+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine capturing baseline active window...", "module": "engine", "line": 58}
+{"timestamp": "2026-07-13T16:49:58.877430+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine capturing baseline hierarchy...", "module": "engine", "line": 60}
+{"timestamp": "2026-07-13T16:49:58.878142+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine capturing baseline monitors...", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:49:58.878523+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine capturing baseline clipboard...", "module": "engine", "line": 64}
+{"timestamp": "2026-07-13T16:49:58.878523+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine capturing baseline devices...", "module": "engine", "line": 66}
+{"timestamp": "2026-07-13T16:49:58.879026+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine capturing baseline network...", "module": "engine", "line": 68}
+{"timestamp": "2026-07-13T16:49:58.886163+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine capturing baseline battery...", "module": "engine", "line": 70}
+{"timestamp": "2026-07-13T16:49:58.886163+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Captured initial baseline EnvironmentSnapshot successfully.", "module": "engine", "line": 86}
+{"timestamp": "2026-07-13T16:49:58.887168+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine background monitor loop started.", "module": "engine", "line": 170}
+{"timestamp": "2026-07-13T16:49:58.887168+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine started successfully.", "module": "engine", "line": 105}
+{"timestamp": "2026-07-13T16:49:58.887977+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Starting module: perception_engine", "module": "runtime", "line": 56}
+{"timestamp": "2026-07-13T16:49:58.887977+00:00", "level": "INFO", "logger": "Override.Perception.Engine", "message": "Starting Perception Engine...", "module": "engine", "line": 82}
+{"timestamp": "2026-07-13T16:49:58.888493+00:00", "level": "INFO", "logger": "Override.Perception.Engine", "message": "Perception Engine started successfully.", "module": "engine", "line": 95}
+{"timestamp": "2026-07-13T16:49:58.888493+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Starting module: memory_engine", "module": "runtime", "line": 56}
+{"timestamp": "2026-07-13T16:49:58.888493+00:00", "level": "INFO", "logger": "Override.Memory.Engine", "message": "Starting Memory Engine...", "module": "engine", "line": 77}
+{"timestamp": "2026-07-13T16:49:58.889058+00:00", "level": "INFO", "logger": "Override.Memory.Engine", "message": "Memory Engine started.", "module": "engine", "line": 94}
+{"timestamp": "2026-07-13T16:49:58.889571+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Starting module: planner_engine", "module": "runtime", "line": 56}
+{"timestamp": "2026-07-13T16:49:58.889571+00:00", "level": "INFO", "logger": "Override.Planner.Engine", "message": "Starting Planner Engine...", "module": "engine", "line": 69}
+{"timestamp": "2026-07-13T16:49:58.889571+00:00", "level": "INFO", "logger": "Override.Planner.Engine", "message": "Planner Engine started.", "module": "engine", "line": 81}
+{"timestamp": "2026-07-13T16:49:58.889571+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Starting module: context_engine", "module": "runtime", "line": 56}
+{"timestamp": "2026-07-13T16:49:58.890087+00:00", "level": "INFO", "logger": "Override.ContextEngine", "message": "Context Engine started.", "module": "engine", "line": 94}
+{"timestamp": "2026-07-13T16:49:58.890087+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Starting module: execution_engine", "module": "runtime", "line": 56}
+{"timestamp": "2026-07-13T16:49:58.890087+00:00", "level": "INFO", "logger": "Override.ExecutionEngine", "message": "ExecutionEngine started.", "module": "engine", "line": 54}
+{"timestamp": "2026-07-13T16:49:58.890087+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Starting module: verification_engine", "module": "runtime", "line": 56}
+{"timestamp": "2026-07-13T16:49:58.890676+00:00", "level": "INFO", "logger": "Override.VerificationEngine", "message": "VerificationEngine started.", "module": "engine", "line": 41}
+{"timestamp": "2026-07-13T16:49:58.890676+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Starting module: knowledge_engine", "module": "runtime", "line": 56}
+{"timestamp": "2026-07-13T16:49:58.890676+00:00", "level": "INFO", "logger": "Override.KnowledgeEngine", "message": "Knowledge Engine started.", "module": "engine", "line": 65}
+{"timestamp": "2026-07-13T16:49:58.890676+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Running Override Cognitive loop.", "module": "runtime", "line": 62}
+{"timestamp": "2026-07-13T16:49:58.891185+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Override Runtime Coordinator successfully booted.", "module": "startup", "line": 33}
+{"timestamp": "2026-07-13T16:49:58.891185+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Startup Time: 293.93 ms", "module": "test_audit", "line": 147}
+{"timestamp": "2026-07-13T16:49:58.891185+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Monitoring resource footprint (5 seconds running)...", "module": "test_audit", "line": 154}
+{"timestamp": "2026-07-13T16:50:03.893059+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Average Idle CPU: 1.88%", "module": "test_audit", "line": 178}
+{"timestamp": "2026-07-13T16:50:03.893567+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Average Memory: 79.40 MB (Overhead from baseline: 34.51 MB)", "module": "test_audit", "line": 179}
+{"timestamp": "2026-07-13T16:50:03.893567+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Event Throughput: 0.00 events/second (Total captured: 0)", "module": "test_audit", "line": 180}
+{"timestamp": "2026-07-13T16:50:03.893567+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Initiating graceful system tear-down...", "module": "shutdown", "line": 13}
+{"timestamp": "2026-07-13T16:50:03.893567+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Execution providers successfully stopped.", "module": "shutdown", "line": 19}
+{"timestamp": "2026-07-13T16:50:03.894085+00:00", "level": "INFO", "logger": "Override.EventBus", "message": "Cancelled Event Bus dispatch worker task.", "module": "bus", "line": 79}
+{"timestamp": "2026-07-13T16:50:03.894085+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Event Bus async dispatcher stopped.", "module": "shutdown", "line": 28}
+{"timestamp": "2026-07-13T16:50:03.894085+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Initiating graceful shutdown...", "module": "runtime", "line": 79}
+{"timestamp": "2026-07-13T16:50:03.894085+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Stopping module: knowledge_engine", "module": "runtime", "line": 90}
+{"timestamp": "2026-07-13T16:50:03.894665+00:00", "level": "INFO", "logger": "Override.KnowledgeEngine", "message": "Stopping Knowledge Engine...", "module": "engine", "line": 69}
+{"timestamp": "2026-07-13T16:50:03.894665+00:00", "level": "INFO", "logger": "Override.KnowledgeEngine", "message": "Knowledge Engine stopped.", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:50:03.894665+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Stopping module: verification_engine", "module": "runtime", "line": 90}
+{"timestamp": "2026-07-13T16:50:03.894665+00:00", "level": "INFO", "logger": "Override.VerificationEngine", "message": "VerificationEngine stopping. Cancelling active verification tasks...", "module": "engine", "line": 45}
+{"timestamp": "2026-07-13T16:50:03.895167+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Stopping module: execution_engine", "module": "runtime", "line": 90}
+{"timestamp": "2026-07-13T16:50:03.895167+00:00", "level": "INFO", "logger": "Override.ExecutionEngine", "message": "ExecutionEngine stopping. Cancelling all active plan tasks...", "module": "engine", "line": 58}
+{"timestamp": "2026-07-13T16:50:03.895167+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Stopping module: context_engine", "module": "runtime", "line": 90}
+{"timestamp": "2026-07-13T16:50:03.895167+00:00", "level": "INFO", "logger": "Override.ContextEngine", "message": "Stopping Context Engine...", "module": "engine", "line": 97}
+{"timestamp": "2026-07-13T16:50:03.895167+00:00", "level": "INFO", "logger": "Override.ContextEngine", "message": "Context Engine stopped.", "module": "engine", "line": 104}
+{"timestamp": "2026-07-13T16:50:03.895610+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Stopping module: planner_engine", "module": "runtime", "line": 90}
+{"timestamp": "2026-07-13T16:50:03.895610+00:00", "level": "INFO", "logger": "Override.Planner.Engine", "message": "Stopping Planner Engine...", "module": "engine", "line": 84}
+{"timestamp": "2026-07-13T16:50:03.895610+00:00", "level": "INFO", "logger": "Override.Planner.Engine", "message": "Planner Engine stopped.", "module": "engine", "line": 102}
+{"timestamp": "2026-07-13T16:50:03.895610+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Stopping module: memory_engine", "module": "runtime", "line": 90}
+{"timestamp": "2026-07-13T16:50:03.896111+00:00", "level": "INFO", "logger": "Override.Memory.Engine", "message": "Stopping Memory Engine...", "module": "engine", "line": 97}
+{"timestamp": "2026-07-13T16:50:03.896111+00:00", "level": "INFO", "logger": "Override.Memory.Engine", "message": "Memory Engine stopped.", "module": "engine", "line": 111}
+{"timestamp": "2026-07-13T16:50:03.896691+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Stopping module: perception_engine", "module": "runtime", "line": 90}
+{"timestamp": "2026-07-13T16:50:03.896691+00:00", "level": "INFO", "logger": "Override.Perception.Engine", "message": "Stopping Perception Engine...", "module": "engine", "line": 98}
+{"timestamp": "2026-07-13T16:50:03.896691+00:00", "level": "INFO", "logger": "Override.Perception.Engine", "message": "Perception Engine thread pool shut down.", "module": "engine", "line": 104}
+{"timestamp": "2026-07-13T16:50:03.896691+00:00", "level": "INFO", "logger": "Override.Perception.Engine", "message": "Perception Engine stopped.", "module": "engine", "line": 118}
+{"timestamp": "2026-07-13T16:50:03.896691+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Stopping module: environment_engine", "module": "runtime", "line": 90}
+{"timestamp": "2026-07-13T16:50:03.896691+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Stopping Environment Engine...", "module": "engine", "line": 108}
+{"timestamp": "2026-07-13T16:50:03.896691+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine background monitor loop stopped.", "module": "engine", "line": 309}
+{"timestamp": "2026-07-13T16:50:03.896691+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine monitor thread joined.", "module": "engine", "line": 114}
+{"timestamp": "2026-07-13T16:50:03.898200+00:00", "level": "INFO", "logger": "Override.Environment.Engine", "message": "Environment Engine stopped.", "module": "engine", "line": 126}
+{"timestamp": "2026-07-13T16:50:03.898597+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Stopping module: observation_engine", "module": "runtime", "line": 90}
+{"timestamp": "2026-07-13T16:50:03.898597+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopping Observation Engine providers...", "module": "engine", "line": 87}
+{"timestamp": "2026-07-13T16:50:04.620581+00:00", "level": "INFO", "logger": "Override.Observation.Screen", "message": "Screen Capture Provider stopped.", "module": "screen", "line": 79}
+{"timestamp": "2026-07-13T16:50:04.621085+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: screen_capture", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:04.689671+00:00", "level": "INFO", "logger": "Override.Observation.Audio", "message": "Audio Capture Provider stopped.", "module": "audio", "line": 92}
+{"timestamp": "2026-07-13T16:50:04.690174+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: audio_capture", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:04.697637+00:00", "level": "INFO", "logger": "Override.Observation.Input", "message": "Native input hooks cleaned up successfully.", "module": "input_listener", "line": 218}
+{"timestamp": "2026-07-13T16:50:04.697637+00:00", "level": "INFO", "logger": "Override.Observation.Input", "message": "Input Listener Provider stopped.", "module": "input_listener", "line": 101}
+{"timestamp": "2026-07-13T16:50:04.698140+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: input_listener", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:04.875184+00:00", "level": "INFO", "logger": "Override.Observation.Window", "message": "Active Window Provider stopped.", "module": "window", "line": 61}
+{"timestamp": "2026-07-13T16:50:04.875184+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: window_tracker", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:04.898669+00:00", "level": "INFO", "logger": "Override.Observation.Filesystem", "message": "Filesystem Watcher Provider stopped.", "module": "filesystem", "line": 63}
+{"timestamp": "2026-07-13T16:50:04.899024+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: filesystem_watcher", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:04.899024+00:00", "level": "INFO", "logger": "Override.Observation.Camera", "message": "Camera Capture Provider (Stub) stopped.", "module": "camera", "line": 34}
+{"timestamp": "2026-07-13T16:50:04.899527+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: camera_capture", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:04.899527+00:00", "level": "INFO", "logger": "Override.Observation.Device", "message": "Device Tracker Provider (Stub) stopped.", "module": "device", "line": 34}
+{"timestamp": "2026-07-13T16:50:04.899527+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: device_tracker", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:04.900097+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Observation Engine providers stopped.", "module": "engine", "line": 94}
+{"timestamp": "2026-07-13T16:50:04.900097+00:00", "level": "INFO", "logger": "Override.Runtime", "message": "Override stopped.", "module": "runtime", "line": 95}
+{"timestamp": "2026-07-13T16:50:04.900097+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Runtime Coordinator stopped.", "module": "shutdown", "line": 35}
+{"timestamp": "2026-07-13T16:50:04.900097+00:00", "level": "INFO", "logger": "Override.Bootstrap", "message": "Override tear-down complete.", "module": "shutdown", "line": 39}
+{"timestamp": "2026-07-13T16:50:04.900606+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Shutdown Completion Time: 1006.81 ms", "module": "test_audit", "line": 188}
+{"timestamp": "2026-07-13T16:50:04.900606+00:00", "level": "INFO", "logger": "Override.EventBus", "message": "Event Bus dispatch loop active.", "module": "bus", "line": 99}
+{"timestamp": "2026-07-13T16:50:04.901114+00:00", "level": "INFO", "logger": "Override.EventBus", "message": "Event Bus dispatch loop cancelling.", "module": "bus", "line": 114}
+{"timestamp": "2026-07-13T16:50:05.898352+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Pre-run Thread Count: 1", "module": "test_audit", "line": 194}
+{"timestamp": "2026-07-13T16:50:05.898906+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Post-run Thread Count: 1", "module": "test_audit", "line": 195}
+{"timestamp": "2026-07-13T16:50:05.899421+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Remaining asyncio tasks: 0", "module": "test_audit", "line": 208}
+{"timestamp": "2026-07-13T16:50:05.899421+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  [SUCCESS] Performance and leak verification tests passed.", "module": "test_audit", "line": 211}
+{"timestamp": "2026-07-13T16:50:05.899421+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "Executing Objective 4: Failure Injection Testing...", "module": "test_audit", "line": 275}
+{"timestamp": "2026-07-13T16:50:05.899421+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  [SUCCESS] Mismatch ID check verified: Mismatch between module ID 'observation_engine' and metadata ID 'test_mismatch'", "module": "test_audit", "line": 286}
+{"timestamp": "2026-07-13T16:50:05.899421+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  [SUCCESS] Double registration check verified: Module 'observation_engine' is already registered.", "module": "test_audit", "line": 297}
+{"timestamp": "2026-07-13T16:50:05.899421+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Injecting failing provider initialization...", "module": "test_audit", "line": 311}
+{"timestamp": "2026-07-13T16:50:05.899421+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initializing Observation Engine...", "module": "engine", "line": 42}
+{"timestamp": "2026-07-13T16:50:05.899421+00:00", "level": "INFO", "logger": "Override.Observation.Screen", "message": "Initializing Screen Capture Provider.", "module": "screen", "line": 60}
+{"timestamp": "2026-07-13T16:50:05.900932+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: screen_capture", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:50:05.900932+00:00", "level": "INFO", "logger": "Override.Observation.Audio", "message": "Initializing Audio Capture Provider.", "module": "audio", "line": 45}
+{"timestamp": "2026-07-13T16:50:05.900932+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: audio_capture", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:50:05.900932+00:00", "level": "INFO", "logger": "Override.Observation.Input", "message": "Initializing Input Listener Provider.", "module": "input_listener", "line": 81}
+{"timestamp": "2026-07-13T16:50:05.900932+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: input_listener", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:50:05.901937+00:00", "level": "INFO", "logger": "Override.Observation.Window", "message": "Initializing Active Window Provider.", "module": "window", "line": 41}
+{"timestamp": "2026-07-13T16:50:05.901937+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: window_tracker", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:50:05.901937+00:00", "level": "INFO", "logger": "Override.Observation.Filesystem", "message": "Initializing Filesystem Watcher on directory: C:\\Users\\HomePC\\jaaara\\override", "module": "filesystem", "line": 42}
+{"timestamp": "2026-07-13T16:50:05.908478+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: filesystem_watcher", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:50:05.908478+00:00", "level": "INFO", "logger": "Override.Observation.Camera", "message": "Initializing Camera Capture Provider (Stub).", "module": "camera", "line": 26}
+{"timestamp": "2026-07-13T16:50:05.908478+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: camera_capture", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:50:05.909992+00:00", "level": "INFO", "logger": "Override.Observation.Device", "message": "Initializing Device Tracker Provider (Stub).", "module": "device", "line": 26}
+{"timestamp": "2026-07-13T16:50:05.909992+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Initialized provider: device_tracker", "module": "engine", "line": 62}
+{"timestamp": "2026-07-13T16:50:05.910508+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Observation Engine initialization complete.", "module": "engine", "line": 66}
+{"timestamp": "2026-07-13T16:50:05.910508+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  [SUCCESS] System survived provider initialization failure.", "module": "test_audit", "line": 315}
+{"timestamp": "2026-07-13T16:50:05.910508+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Starting engine with a crashing provider...", "module": "test_audit", "line": 321}
+{"timestamp": "2026-07-13T16:50:05.910508+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Starting Observation Engine providers...", "module": "engine", "line": 69}
+{"timestamp": "2026-07-13T16:50:05.911021+00:00", "level": "INFO", "logger": "Override.Observation.Screen", "message": "Screen Capture Provider started.", "module": "screen", "line": 69}
+{"timestamp": "2026-07-13T16:50:05.911021+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: screen_capture", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:50:06.145455+00:00", "level": "INFO", "logger": "Override.Observation.Audio", "message": "Audio stream started successfully using sounddevice.", "module": "audio", "line": 64}
+{"timestamp": "2026-07-13T16:50:06.145455+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: audio_capture", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:50:06.146964+00:00", "level": "INFO", "logger": "Override.Observation.Input", "message": "Input Listener Provider started.", "module": "input_listener", "line": 90}
+{"timestamp": "2026-07-13T16:50:06.146964+00:00", "level": "INFO", "logger": "Override.Observation.Input", "message": "Native input hooks installed successfully.", "module": "input_listener", "line": 200}
+{"timestamp": "2026-07-13T16:50:06.147969+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: input_listener", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:50:06.148472+00:00", "level": "INFO", "logger": "Override.Observation.Window", "message": "Active Window Provider started.", "module": "window", "line": 51}
+{"timestamp": "2026-07-13T16:50:06.148472+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: window_tracker", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:50:06.149229+00:00", "level": "INFO", "logger": "Override.Observation.Filesystem", "message": "Filesystem Watcher Provider started.", "module": "filesystem", "line": 53}
+{"timestamp": "2026-07-13T16:50:06.149229+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: filesystem_watcher", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:50:06.149229+00:00", "level": "INFO", "logger": "Override.Observation.Camera", "message": "Camera Capture Provider (Stub) started.", "module": "camera", "line": 30}
+{"timestamp": "2026-07-13T16:50:06.149799+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: camera_capture", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:50:06.149799+00:00", "level": "INFO", "logger": "Override.Observation.Device", "message": "Device Tracker Provider (Stub) started.", "module": "device", "line": 30}
+{"timestamp": "2026-07-13T16:50:06.149799+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: device_tracker", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:50:06.150845+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Started provider: crashing_runtime_provider", "module": "engine", "line": 73}
+{"timestamp": "2026-07-13T16:50:06.150845+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Observation Engine providers started.", "module": "engine", "line": 76}
+{"timestamp": "2026-07-13T16:50:06.151353+00:00", "level": "INFO", "logger": "Override.EventBus", "message": "Event Bus dispatch loop active.", "module": "bus", "line": 99}
+{"timestamp": "2026-07-13T16:50:07.169249+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  [SUCCESS] System survived provider runtime exception.", "module": "test_audit", "line": 329}
+{"timestamp": "2026-07-13T16:50:07.169757+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Stopping engine and verifying Event Bus availability...", "module": "test_audit", "line": 340}
+{"timestamp": "2026-07-13T16:50:07.169757+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopping Observation Engine providers...", "module": "engine", "line": 87}
+{"timestamp": "2026-07-13T16:50:07.912663+00:00", "level": "INFO", "logger": "Override.Observation.Screen", "message": "Screen Capture Provider stopped.", "module": "screen", "line": 79}
+{"timestamp": "2026-07-13T16:50:07.912663+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: screen_capture", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:07.964848+00:00", "level": "INFO", "logger": "Override.Observation.Audio", "message": "Audio Capture Provider stopped.", "module": "audio", "line": 92}
+{"timestamp": "2026-07-13T16:50:07.965851+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: audio_capture", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:07.974780+00:00", "level": "INFO", "logger": "Override.Observation.Input", "message": "Native input hooks cleaned up successfully.", "module": "input_listener", "line": 218}
+{"timestamp": "2026-07-13T16:50:07.974780+00:00", "level": "INFO", "logger": "Override.Observation.Input", "message": "Input Listener Provider stopped.", "module": "input_listener", "line": 101}
+{"timestamp": "2026-07-13T16:50:07.975383+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: input_listener", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:08.152366+00:00", "level": "INFO", "logger": "Override.Observation.Window", "message": "Active Window Provider stopped.", "module": "window", "line": 61}
+{"timestamp": "2026-07-13T16:50:08.152366+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: window_tracker", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:08.160311+00:00", "level": "INFO", "logger": "Override.Observation.Filesystem", "message": "Filesystem Watcher Provider stopped.", "module": "filesystem", "line": 63}
+{"timestamp": "2026-07-13T16:50:08.160311+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: filesystem_watcher", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:08.160311+00:00", "level": "INFO", "logger": "Override.Observation.Camera", "message": "Camera Capture Provider (Stub) stopped.", "module": "camera", "line": 34}
+{"timestamp": "2026-07-13T16:50:08.160818+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: camera_capture", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:08.160818+00:00", "level": "INFO", "logger": "Override.Observation.Device", "message": "Device Tracker Provider (Stub) stopped.", "module": "device", "line": 34}
+{"timestamp": "2026-07-13T16:50:08.160818+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: device_tracker", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:08.161576+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Stopped provider: crashing_runtime_provider", "module": "engine", "line": 91}
+{"timestamp": "2026-07-13T16:50:08.161576+00:00", "level": "INFO", "logger": "Override.Observation.Engine", "message": "Observation Engine providers stopped.", "module": "engine", "line": 94}
+{"timestamp": "2026-07-13T16:50:08.667508+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  [SUCCESS] Event Bus availability during provider shutdown verified.", "module": "test_audit", "line": 345}
+{"timestamp": "2026-07-13T16:50:08.667508+00:00", "level": "INFO", "logger": "Override.EventBus", "message": "Cancelled Event Bus dispatch worker task.", "module": "bus", "line": 79}
+{"timestamp": "2026-07-13T16:50:08.667508+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "=================================================================", "module": "test_audit", "line": 371}
+{"timestamp": "2026-07-13T16:50:08.668415+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "AUDIT COMPLETED SUCCESSFULLY", "module": "test_audit", "line": 372}
+{"timestamp": "2026-07-13T16:50:08.668415+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "=================================================================", "module": "test_audit", "line": 373}
+{"timestamp": "2026-07-13T16:50:08.668415+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "RESULTS SUMMARY:", "module": "test_audit", "line": 374}
+{"timestamp": "2026-07-13T16:50:08.668415+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Startup Time: 293.93 ms", "module": "test_audit", "line": 375}
+{"timestamp": "2026-07-13T16:50:08.668415+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Avg CPU Usage: 1.88%", "module": "test_audit", "line": 376}
+{"timestamp": "2026-07-13T16:50:08.668918+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Avg Memory: 79.40 MB", "module": "test_audit", "line": 377}
+{"timestamp": "2026-07-13T16:50:08.668918+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Mem Overhead: 34.51 MB", "module": "test_audit", "line": 378}
+{"timestamp": "2026-07-13T16:50:08.668918+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Throughput: 0.00 events/sec", "module": "test_audit", "line": 379}
+{"timestamp": "2026-07-13T16:50:08.668918+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  Shutdown Time: 1006.81 ms", "module": "test_audit", "line": 380}
+{"timestamp": "2026-07-13T16:50:08.668918+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  No resource leaks detected.", "module": "test_audit", "line": 381}
+{"timestamp": "2026-07-13T16:50:08.668918+00:00", "level": "INFO", "logger": "Override.MilestoneAudit", "message": "  All boundary and failure tests passed.", "module": "test_audit", "line": 382}
+{"timestamp": "2026-07-13T16:50:08.668918+00:00", "level": "INFO", "logger": "Override.EventBus", "message": "Event Bus dispatch loop cancelling.", "module": "bus", "line": 114}
